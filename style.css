@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+  }
+
+  /* App.vue*/
+  .wrap {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    position: relative;
+    top: 10px;
+  }
+  
+  .header {
+    width: 100%;
+    height: 75px;
+    box-sizing: border-box;
+    padding-top: 25px;
+    border-bottom: 3px solid;
+  }
+  
+  .header > h4 {
+    position: absolute;
+    left: 50px;
+  }
+  /*container*/
+  .container {
+    width: 100%;
+  }
+  .newpost{
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .morepost{
+    margin: 0 auto;
+    display: block;
+  }
+  .create {
+    width: 100%;
+    position: relative;
+    top: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  .create > div {
+    position: relative;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px dotted;
+    box-sizing: border-box;
+  }
+  .create > div > span {
+    font-size: 10px;
+    margin-left: 10px;
+    color: red;
+  }
+  .create > div > input {
+    position: absolute;
+    right: 0;
+  }
+  .prePhoto {
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .prePhoto > div {
+    width: 100px;
+    height: 100px;
+    background: olive;
+    margin: 5px;
+    background-size: cover;
+  }
+  /*post*/
+  .post {
+    width: 100%;
+    border-bottom: 2px dotted;
+    padding: 10px;
+  }
+  
+  .front {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  .picture {
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .information {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .information > h4,
+  p {
+    margin-bottom: 5px;
+  }
+  
+  .back {
+    width: 100%;
+    margin-top: 20px;
+    border-top: 2px dotted;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  
+  .morePicture {
+    width: 100px;
+    height: 100px;
+    background: darkgrey;
+    margin: 5px;
+    background-size: cover;
+    background-position: center;
+  }
